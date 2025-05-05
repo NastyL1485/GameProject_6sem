@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center; /* Центрирует по горизонтали */
+  align-items: center; /* Центрирует по вертикали */
+  height: 100vh; /* Задает высоту контейнера на весь экран */
+  width: 100vw; /* Задает ширину контейнера на весь экран */
+  position: relative; /* Позволяет позиционировать дочерние элементы */
+  overflow: hidden; /* Скрывает все, что выходит за пределы контейнера */
+}
+
+canvas {
+  border: 5px solid pink; /* Добавляет рамку к канвасу розового цвета */
+  width: 1000px; /* Задает ширину канваса на весь экран */
+  height: auto; /* Высота канваса будет пропорциональна ширине */
+}
